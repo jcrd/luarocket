@@ -26,6 +26,7 @@ make_tree() {
 
 make_modules() {
     local luaver="$(luarocks config --lua-ver)"
+    mkdir -p "$LUA_MODULES"
     cp -r "$LUA_TREE_SHARE/$luaver"/* "$LUA_MODULES"
 }
 
