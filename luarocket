@@ -2,7 +2,7 @@
 
 # This project is licensed under the MIT License.
 
-# VERSION: PRE-v0.1.0
+# VERSION: v0.1.0
 
 set -eu
 
